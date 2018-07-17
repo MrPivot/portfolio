@@ -7,9 +7,9 @@
 		
 		<title>Mark Boots Portfolio</title>
 		
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		
-		<link href="css/main.css" rel="stylesheet" />
+		<link href="../css/main.css" rel="stylesheet" />
 		
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		
@@ -23,10 +23,10 @@
 
 <section id="title">
 	<div class="text-center">	
-		<h1>
+		<a href="../index.html"><h1>
 			Mark Boots <br />
-			<small> Game Programmer </small>
-		</h1>
+			<small> Generalist Programmer </small>
+		</h1></a>
 		
 	</div>
 </section>
@@ -55,28 +55,32 @@
 								
 					<div class="container professional-section">
 						<h3>
-							Project Ragnarok <br />
-							<small> September 2017 - Present </small>
+							Sym.BIOS <br />
+							<small> September 2017 - July 2018 </small>
 						</h3>
 						
 						<div class="row vertical-align">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-sm-6">
 								
-									<img class="img-responsive" src="assets/images/ragnarok.png"/>
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AlffeffQmEA" allowfullscreen>
+											<!-- TODO: display image if iframe not supported. -->
+										</iframe>
+									</div>
 								
 							</div>
-							<div class="col-lg-6">	
+							<div class="col-lg-6 col-sm-6">	
 								<div class="project-description">
-									Project Ragnarok is a turn-based tactical RPG where you lead a team of mechs, customized by you, with the goal of destroying your opponent and capturing their base. This project is being built with a team of +/- 20 people during the entire third year of igad. <br /><br /> My main contributions to this project are: <br /> - The procedural generation of the level. <br /> - Grid construction and initialization. <br /><br />
+									Main project contributions: <br /> - Procedural Level Generation. <br /> - Grid construction and initialization. <br /> - Parts of the networking implementation. <br /><br />
 										
 									<ul class="list-unstyled">
 										<li> Primary Role: Procedural Programmer </li>
 										<li> Type: School / Client Project </li>
-										<li> Tech: Unreal Engine 4 </li>
+										<li> Tech: Unreal Engine 4 / C++ / Blueprints </li>
 										<li> Platform: PC / PS4 </li>
 									</ul>
 
-									<p hidden><a href="/projects/01-ragnarok.html"> Click here for more details. </a></p>									
+									<a href="/projects/01-ragnarok.html"> Click here for more details. </a>								
 								</div>
 							</div>
 						</div>
@@ -96,7 +100,7 @@
 						</h3>
 					
 						<div class="row vertical-align">
-							<div class="col-lg-6 col-sm-push-6">
+							<div class="col-lg-6 col-sm-push-6 col-sm-6">
 								
 									<div class="embed-responsive embed-responsive-16by9">
 										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O4Awj2cCSvU" allowfullscreen>
@@ -106,18 +110,18 @@
 								
 							</div>
 							
-							<div class="col-lg-6 col-sm-pull-6">
+							<div class="col-lg-6 col-sm-pull-6 col-sm-6">
 								<div class="project-description">
-									Beat Batten is a turn-based card game featuring networked player vs player gameplay. Using your guardians you try to either beat your opponent (Batten) or reach the door at the other side of the map. This game was made for the Beat Batten foundation, which aims to find a cure for Batten disease. This project was implemented using Entitas, a data oriented Entity Component System. <br /><br /> My main contributions to this project where: <br /> - Camera controls. <br /> - Implementation of animation. <br /> - Parts of the cards and combat. <br /><br />
+									Main project contributions: <br /> - Camera controls. <br /> - Implementation of animation. <br /> - Parts of the cards and combat. <br /><br />
 								
 									<ul class="list-unstyled">
 										<li> Primary Role: Gameplay Programmer </li>
 										<li> Type: School / Client Project </li>
-										<li> Tech: Unity / Custom Networking Library / Entitas </li>
+										<li> Tech: Unity / C# / Custom Networking Library / Entitas </li>
 										<li> Platform: Mobile </li>
 									</ul>
 
-									<p hidden><a href=""> Click here for more details. </a></p>
+									<a href="/projects/02-beatbatten.html"> Click here for more details. </a>
 								</div>
 							</div>
 						</div>
@@ -167,10 +171,12 @@
 							
 							<div class="row">
 								<div class="col-lg-6">
-									<p>This was a game, made in a small team, for Ludum Dare 41.
+									<div class="sideproject-text">
+										<p>This was a game, made in a small team, for Ludum Dare 41.
 Goal of the game is to fish up your weapon and then use it to slap your friends and / or foes out of the map.
 I mainly worked on the implementation of the physics.</p>
 
+									</div>
 								</div>
 								
 								<div class="col-lg-6">
@@ -180,7 +186,7 @@ I mainly worked on the implementation of the physics.</p>
 											<li> Primary Role: Physics Programmer </li>
 											
 											<li> Type: Ludum Dare - Game Jam </li>
-											<li> Tech: Unreal Engine 4 </li>
+											<li> Tech: Unreal Engine 4 / Blueprints </li>
 											<li> Platform: PC </li>
 										</ul>
 									</div>
@@ -207,17 +213,21 @@ I mainly worked on the implementation of the physics.</p>
 							
 							<div class="row">
 								<div class="col-lg-6">
-									<p>This was a small grid editing tool that I implemented for Project Ragnarok.
+									<div class="sideproject-text">
+										<p>This was a small grid editing tool that I implemented for Sym.BIOS.
 My main goal implementing this was exploring to what extent I could manage to extend Unreal Editor.</p>
 
+									</div>
 								</div>
 								
 								<div class="col-lg-6">
 									<div class="sideproject-list">
 										<ul class="list-unstyled">
 											
+											<li> Primary Role: Tool Programmer </li>
+											
 											<li> Type: School / Personal Project </li>
-											<li> Tech: Unreal Engine 4 / Slate </li>
+											<li> Tech: Unreal Engine 4 / C++ / Slate </li>
 											<li> Platform: PC </li>
 										</ul>
 									</div>
@@ -246,9 +256,11 @@ My main goal implementing this was exploring to what extent I could manage to ex
 							
 							<div class="row">
 								<div class="col-lg-6">
-									<p>This was a second year project during which we made a custom engine for Mobas.
+									<div class="sideproject-text">
+										<p>This was a second year project during which we made a custom engine for Mobas.
 I mainly worked on the OpenGL renderer, GLSL shaders, shadowmapping and frustum culling using a quadtree.</p>
 
+									</div>
 								</div>
 								
 								<div class="col-lg-6">
@@ -258,7 +270,7 @@ I mainly worked on the OpenGL renderer, GLSL shaders, shadowmapping and frustum 
 											<li> Primary Role: Graphics Programmer </li>
 											
 											<li> Type: School Project </li>
-											<li> Tech: Custom </li>
+											<li> Tech: Custom Engine / C++ / OpenGL / GLSL </li>
 											<li> Platform: PC </li>
 										</ul>
 									</div>
@@ -289,10 +301,12 @@ I mainly worked on the OpenGL renderer, GLSL shaders, shadowmapping and frustum 
 							
 							<div class="row">
 								<div class="col-lg-6">
-									<p>This was a game, made in a small team, for Ludum Dare 37.
+									<div class="sideproject-text">
+										<p>This was a game, made in a small team, for Ludum Dare 37.
 It is a multiplayer first person shooter situated inside a cube.
 This was my first time working with Unreal Engine, I mainly worked on gameplay and shifting gravity.</p>
 
+									</div>
 								</div>
 								
 								<div class="col-lg-6">
@@ -302,7 +316,7 @@ This was my first time working with Unreal Engine, I mainly worked on gameplay a
 											<li> Primary Role: Gameplay Programmer </li>
 											
 											<li> Type: Ludum Dare - Game Jam </li>
-											<li> Tech: Unreal Engine 4 </li>
+											<li> Tech: Unreal Engine 4 / Blueprints / C++ </li>
 											<li> Platform: PC </li>
 										</ul>
 									</div>
@@ -327,21 +341,21 @@ This was my first time working with Unreal Engine, I mainly worked on gameplay a
 				<h3> - Tools - </h3>
 				
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-lg-12">
 						<ul class="list-unstyled">
-							<li><b> Unreal Engine 4 </b></li>
-							<li><b> Visual Studio </b></li>
-							<li><b> Jira </b></li>
-							<li><b> Trello </b></li>
+							<li><b> Visual Studio &nbsp; - &nbsp; 5 years of experience </b></li>
+							<li><b> Unity 3D &nbsp; - &nbsp; 1 year of experience </b></li>
+							<li><b> Unreal Engine 4 &nbsp; - &nbsp; 1 year of experience </b></li>
+							<li> --- </li>
+							<li><b> Perforce &nbsp; - &nbsp; 3 years of experience </b></li>
+							<li> --- </li>
 						</ul>
-					</div>
-					
-					<div class="col-lg-6">
-						<ul class="list-unstyled">
-							<li><b> Unity 3D </b></li>
-							<li><b> Perforce </b></li>
-							<li><b> Swarm </b></li>
-						</ul>
+						
+						<b>
+							I have some experience with: <br />
+							
+							Jira - Trello - Swarm - Word - Excell - PowerPoint - Sourcetree - Jekyll
+						</b>
 					</div>
 				</div>
 			</div>
@@ -350,29 +364,24 @@ This was my first time working with Unreal Engine, I mainly worked on gameplay a
 				<h3> - Skills - </h3>
 				
 				<div class="row">
-					<div class="col-lg-4">
+					<div class="col-lg-12">
 						<ul class="list-unstyled">
-							<li><b> C/C++ </b></li>
-							<li><b> C# </b></li>
-							<li><b> Blueprints </b></li>
-							<li><b>  </b></li>
+							<li><b> C/C++ &nbsp; - &nbsp; 5 years of experience</b></li>
+							<li><b> C# &nbsp; - &nbsp; 1 year of experience </b></li>
+							<li><b> Blueprints &nbsp; - &nbsp; 1 year of experience </b></li>
+							<li> --- </li>
+							<li><b> OpenGL &nbsp; - &nbsp; 1 year of experience </b></li>
+							<li><b> GLSL &nbsp; - &nbsp; 1 year of experience </b></li>
+							<li><b> Scrum &nbsp; - &nbsp; 2 years of experience </b></li>
+							<li> --- </li>
 						</ul>
-					</div>
-					
-					<div class="col-lg-4">
-						<ul class="list-unstyled">
-							<li><b> OpenGL </b></li>
-							<li><b> GLSL </b></li>
-							<li><b> Scrum </b></li>
-						</ul>
-					</div>
-					
-					<div class="col-lg-4">
-						<ul class="list-unstyled">
-							<li><b> DirectX 11 </b></li>
-							<li><b> HLSL </b></li>
-							<li><b>  </b></li>
-						</ul>
+						
+						<b>
+							I have some experience with: <br />
+							
+							DirectX11 - HLSL - Lua - HTML - CSS - LaTeX <br />
+							PS4 development
+						</b>
 					</div>
 				</div>
 			</div>
@@ -412,7 +421,7 @@ This was my first time working with Unreal Engine, I mainly worked on gameplay a
 	<h2> - Contact - </h2>
 	
 	<div class="container contact-section">
-		Feel free to contact me through e-mail (markie-500@live.nl) or any of the following: <br /><br />
+		For more information feel free to contact me through e-mail (markie-500@live.nl) or any of the following: <br /><br />
 		<a href="https://www.linkedin.com/in/mark-boots-6bb19815a/" class="btn btn-primary btn-lg" target="_blank" role="button"><i class="fa fa-linkedin fa-fw"></i> LinkedIn </a>
 	</div>
 </section>

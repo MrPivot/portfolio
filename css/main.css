@@ -22,6 +22,15 @@ footer {
   border-color: #292928;
   padding: 10px 10px 10px 10px; }
 
+.projectdetails-section {
+  background: #252526;
+  border-style: solid;
+  border-color: #292928;
+  padding: 25px 10px 50px 10px; }
+
+.sideproject-text {
+  text-align: left; }
+
 .sideproject-list {
   text-align: left; }
 
@@ -39,8 +48,14 @@ footer {
   border-color: #292928;
   padding: 10px 0px 50px 0px; }
 
+.showreel-section {
+  padding: 50px 0px 0px 0px; }
+
 .project-description {
   text-align: left; }
+
+.home-button {
+  padding: 50px 25px 0px 25px; }
 
 .vertical-align {
   display: flex;
