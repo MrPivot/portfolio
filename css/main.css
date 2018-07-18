@@ -1,72 +1,34 @@
-body {
-  margin: 0px;
-  background: #2D2D30;
-  color: #F1F1F1;
-  text-align: center; }
+body { margin: 0px; background: #2D2D30; color: #F1F1F1; text-align: center; }
 
-footer {
-  color: #8D8D8D; }
+footer { color: #8D8D8D; }
 
-.section-padding {
-  padding: 50px 0px 50px 0px; }
+.section-padding { padding: 50px 0px 50px 0px; }
 
-.professional-section {
-  background: #252526;
-  border-style: solid;
-  border-color: #292928;
-  padding: 25px 10px 50px 10px; }
+.professional-section { background: #252526; border-style: solid; border-color: #292928; padding: 25px 10px 50px 10px; }
 
-.sideproject-section {
-  background: #252526;
-  border-style: solid;
-  border-color: #292928;
-  padding: 10px 10px 10px 10px; }
+.sideproject-section { background: #252526; border-style: solid; border-color: #292928; padding: 10px 10px 10px 10px; }
 
-.projectdetails-section {
-  background: #252526;
-  border-style: solid;
-  border-color: #292928;
-  padding: 25px 10px 50px 10px; }
+.projectdetails-section { background: #252526; border-style: solid; border-color: #292928; padding: 25px 10px 50px 10px; }
 
-.sideproject-text {
-  text-align: left; }
+.sideproject-text { text-align: left; }
 
-.sideproject-list {
-  text-align: left; }
+.sideproject-list { text-align: left; }
 
-.experience-section {
-  padding: 50px 0px 0px 0px; }
+.experience-section { padding: 50px 0px 0px 0px; }
 
-.skills-section {
-  background: #252526;
-  border-style: solid;
-  border-color: #292928; }
+.skills-section { background: #252526; border-style: solid; border-color: #292928; }
 
-.contact-section {
-  background: #252526;
-  border-style: solid;
-  border-color: #292928;
-  padding: 10px 0px 50px 0px; }
+.contact-section { background: #252526; border-style: solid; border-color: #292928; padding: 10px 0px 50px 0px; }
 
-.showreel-section {
-  padding: 50px 0px 0px 0px; }
+.showreel-section { padding: 50px 0px 0px 0px; }
 
-.project-description {
-  text-align: left; }
+.project-description { text-align: left; }
 
-.home-button {
-  padding: 50px 25px 0px 25px; }
+.home-button { padding: 50px 25px 0px 25px; }
 
-.vertical-align {
-  display: flex;
-  align-items: center; }
+.vertical-align { display: flex; align-items: center; }
 
-@media (max-width: 767px) {
-  .row.vertical-align {
-    display: block; } }
-.row {
-  overflow: hidden; }
+@media (max-width: 767px) { .row.vertical-align { display: block; } }
+.row { overflow: hidden; }
 
-[class*="col-"] {
-  margin-bottom: -99999px;
-  padding-bottom: 99999px; }
+[class*="col-"] { margin-bottom: -99999px; padding-bottom: 99999px; }
